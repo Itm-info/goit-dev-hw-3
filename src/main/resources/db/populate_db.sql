@@ -24,8 +24,8 @@ INSERT INTO project (client_id, start_date, finish_date) VALUES
     ((SELECT id FROM client LIMIT 1 OFFSET 1),'2000-01-01','2000-03-01'),
     ((SELECT id FROM client LIMIT 1 OFFSET 1),'2000-01-01','2000-03-01'),
     ((SELECT id FROM client LIMIT 1 OFFSET 1),'2000-01-01','2000-03-01'),
-    ((SELECT id FROM client LIMIT 1 OFFSET 2),'2000-01-01','2000-03-01'),
-    ((SELECT id FROM client LIMIT 1 OFFSET 2),'2000-01-01','2000-03-01')
+    ((SELECT id FROM client LIMIT 1 OFFSET 2),'2000-01-01','2000-05-01'),
+    ((SELECT id FROM client LIMIT 1 OFFSET 2),'2000-01-01','2000-05-01')
 ;
 
 INSERT INTO project_worker (project_id, worker_id)
